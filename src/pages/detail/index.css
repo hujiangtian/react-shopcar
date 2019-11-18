@@ -1,0 +1,65 @@
+.detail-box .img-box {
+  width: 100%;
+}
+
+.detail-box .img-box img {
+  width: 100%;
+}
+
+.detail-box p {
+  margin: 0.1rem 0;
+  color: #333;
+}
+
+.detail-box .detail {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.2rem;
+  font-size: 0.11rem;
+}
+
+.detail-box .detail li {
+  flex: 50%;
+  margin: 0.05rem 0;
+}
+
+.detail-box .detail .price {
+  color: #FC4D52;
+  text-align: left;
+}
+
+.detail-box .detail .price span strong {
+  font-size: 0.2rem;
+  font-weight: normal;
+}
+
+.detail-box .detail .number {
+  text-align: right;
+  vertical-align: bottom;
+  color: #333;
+}
+
+.detail-box .detail .number i {
+  color: #FC4D52;
+  font-style: normal;
+}
+
+.detail-box .detail .yuanjia {
+  text-align: left;
+  color: #888;
+}
+
+.detail-box .detail .others {
+  text-align: right;
+  color: #888;
+}
+
+.detail-box .am-list-body {
+  background-color: transparent;
+  border: none;
+}
+
+.detail-box .am-list-item {
+  background-color: transparent;
+  touch-action: none;
+}

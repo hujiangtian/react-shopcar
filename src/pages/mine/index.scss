@@ -1,0 +1,56 @@
+.shopcar{
+    height:100%;
+    overflow: auto;
+    ul {
+      li {
+        display: flex;
+        margin: 0.2rem 0.08rem;
+        padding: 0.08rem;
+        border-radius: 0.05rem;
+        box-shadow:0 0 0.02rem 0.02rem rgb(231, 228, 228);
+    
+        .img-box {
+          width: 80px;
+          height: 80px;
+    
+          a {
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+    
+        .content-box {
+          padding-left: 15px;
+          margin-right: 15px;
+    
+          h3 {
+            font-size: 14px;
+          }
+        }
+    
+        .del-btn{
+          line-height: 0.8rem;
+          // a{
+          //   padding: 0;
+          //   span{
+          //     padding: 0 0.15rem;
+          //     display: block;
+          //   }
+          // }
+        }
+      }
+    }
+    .shopcar-b{
+      line-height: 0.5rem;
+      p{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 0.5rem;
+      }
+      a{
+        margin-top:0.1rem
+      }
+    }
+  }

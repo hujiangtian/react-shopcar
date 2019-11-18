@@ -1,0 +1,18 @@
+@import '../../../assets/style/theme.scss';
+.header-box{
+  height:0.505rem;
+  background: $theme;
+  display: flex;
+  align-items: center;
+  i{
+    font-size: 0.3rem;
+    padding:0 0.3rem;
+    color:#fff
+  }
+  span{
+    font-size: 0.18rem;
+    color:#fff;
+    flex:1;
+    text-align: center;
+  }
+}

@@ -1,0 +1,38 @@
+.list-item {
+  padding: 0.15rem;
+}
+
+.list-item .item-title {
+  text-align: left;
+  color: #333;
+  font-size: 0.14rem;
+  margin: 0.15rem 0;
+}
+
+.list-item ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item ul li {
+  flex: 33.33%;
+  margin: 0.15rem 0;
+}
+
+.list-item ul li a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item ul li a img {
+  width: 60%;
+}
+
+.list-item ul li a span {
+  font-size: 0.12rem;
+  color: #333;
+}

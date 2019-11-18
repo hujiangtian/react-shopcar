@@ -1,0 +1,37 @@
+@import '../../assets/style/theme.scss';
+@import '../../assets/style/border.scss';
+.nav-box {
+  display: flex;
+  justify-content: space-around;
+  line-height: 0.45rem;
+  font-size: 0.15rem;
+  color: #666;
+  @include border(#666,0 0 0.01rem 0);
+  text-align: center;
+  .nav-l{
+    display: flex;
+    i{
+      padding: 0 0.04rem;
+      line-height: 0.45rem;
+    }
+  }
+  .nav-m {
+    display: flex;
+    a {
+      margin: 0 0.12rem;
+      width: 0.88rem;
+      font-weight: bold;
+      color: #666;
+      &.active {
+        color: $theme;
+        border-bottom: 0.02rem solid $theme;
+      }
+      
+    }
+  }
+  .nav-r {
+    font-size: 0.2rem;
+    color: #e54847;
+  }
+ 
+}

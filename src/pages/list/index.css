@@ -1,0 +1,71 @@
+.shop-list {
+  height: 100%;
+  overflow: auto;
+  padding: 0.1rem 0 0 0.1rem;
+}
+
+.shop-list li {
+  height: 1.45rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.1rem;
+}
+
+.shop-list li a {
+  display: flex;
+}
+
+.shop-list li a .img-box {
+  margin-right: 0.2rem;
+}
+
+.shop-list li a .img-box img {
+  width: 1.26rem;
+}
+
+.shop-list li a .content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-list li a .content-box h3 {
+  font-weight: normal;
+  color: #333;
+  font-size: 0.14rem;
+  text-align: left;
+  margin-bottom: 0.2rem;
+}
+
+.shop-list li a .content-box p {
+  font-size: 0.1rem;
+  color: #333;
+  text-align: left;
+}
+
+.shop-list li a .content-box p em {
+  font-style: normal;
+  color: #FF2B22;
+  font-size: 0.19rem;
+}
+
+.shop-list li a .content-box p em i {
+  font-style: normal;
+  color: #FF2B22;
+  font-size: 0.1rem;
+}
+
+.shop-list li a .content-box span {
+  background: linear-gradient(90deg, #ff8873 0, #ff4f4f 100%);
+  font-size: 0.1rem;
+  color: #fff;
+  border-radius: 0.02rem;
+  padding: 0.01rem 0.04rem;
+  margin: 0.1rem 0;
+  width: fit-content;
+}
+
+.shop-list li a .content-box i {
+  font-size: 0.1rem;
+  color: #888;
+  text-align: left;
+  font-style: normal;
+}

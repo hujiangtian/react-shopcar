@@ -1,0 +1,49 @@
+.shopcar {
+  height: 100%;
+  overflow: auto;
+}
+
+.shopcar ul li {
+  display: flex;
+  margin: 0.2rem 0.08rem;
+  padding: 0.08rem;
+  border-radius: 0.05rem;
+  box-shadow: 0 0 0.02rem 0.02rem #e7e4e4;
+}
+
+.shopcar ul li .img-box {
+  width: 80px;
+  height: 80px;
+}
+
+.shopcar ul li .img-box a img {
+  width: 100%;
+  height: 100%;
+}
+
+.shopcar ul li .content-box {
+  padding-left: 15px;
+  margin-right: 15px;
+}
+
+.shopcar ul li .content-box h3 {
+  font-size: 14px;
+}
+
+.shopcar ul li .del-btn {
+  line-height: 0.8rem;
+}
+
+.shopcar .shopcar-b {
+  line-height: 0.5rem;
+}
+
+.shopcar .shopcar-b p {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.5rem;
+}
+
+.shopcar .shopcar-b a {
+  margin-top: 0.1rem;
+}
